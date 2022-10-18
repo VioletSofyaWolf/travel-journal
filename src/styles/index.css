@@ -4,5 +4,89 @@
 
 body {
   margin: 0;
-  color: red;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f55a5a;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 3em 0 3em 0;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 0.5em;
+  letter-spacing: -2px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.card-image {
+  width: 180px;
+  height: 243px;
+  border-radius: 8px;
+}
+.card-info {
+  padding-left: 1.5em;
+}
+
+.card-location {
+  margin: 0.5em 0;
+}
+
+.card-location span {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #2b283a;
+}
+
+.card-location a {
+  padding-left: 1em;
+  color: #918e9b;
+  font-size: 0.9rem;
+}
+
+.location-icon {
+  padding-right: 0.3em;
+  width: 13px;
+}
+
+.card-title {
+  font-size: 2rem;
+  color: #2b283a;
+}
+
+.card-date {
+  padding-top: 0.7em;
+  font-weight: 700;
+  color: #2b283a;
+  font-size: 1rem;
+  margin-bottom: 0em;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #2b283a;
+  margin-top: 0.5em;
+  line-height: 25px;
 }
